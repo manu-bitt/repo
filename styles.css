@@ -202,4 +202,4 @@ footer {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 .cards:hover .card:not(:hover){
-filter: grayscale(1) blur(10px);}
+filter: grayscale(0.5) blur(10px);}
