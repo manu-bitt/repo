@@ -1,28 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
-:root{
-    --w-column: 200px;
-}
-body{
-    margin: 0;
-    background-color: #232442;
-    color: #fff;
-    font-size: 15px;
-    font-family: Poppins;
-    background-image: radial-gradient(#2b2e4f, #111126);
 
-  
-  overflow: hidden;
-  position: relative;}
-   
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-  } */
-
-
-  /* Navbar */
   * {
     margin: 0;
     padding: 0;
@@ -81,44 +57,56 @@ body {
 }
 /* Hero Section */
 .hero {
+    font-family: jost;
+    text-align: start;
     height: 80vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                url('https://source.unsplash.com/1920x1080/?technology,trends') 
-                no-repeat center center/cover;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;
+    color: black;
     padding: 20px;
+    margin-left: 80px;
+    
 }
 
 .hero h1 {
-    font-size: 4rem;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-family: jost;
+    text-align: start;
+    font-size: 3rem;
+    margin-bottom: 0px;
+    /* text-shadow: 2px 2px 5px rgba(208, 135, 135, 0.5); */
+    color: black;
+    line-height: 50px;
+
 }
 
 .hero p {
+    text-align: start;
     font-size: 1.5rem;
-    max-width: 600px;
+    color: black;
+    
 }
 
 .hero a {
-    display: inline-block;
+   
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 1.2rem;
-    background: lightgray;
+    background: red;
     color: white;
     text-decoration: none;
     border-radius: 25px;
-    transition: background 0.3s ease;
+    border: 1px solid red;
+    transition: 0.3s ease;
 }
-
-.hero a:hover {
-    background: #e56742;
+.hero a:hover{
+    background: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 25px;
+    border: 1px solid red;
+    transition: 0.3s ease;
 }
 
 /* Sections */
