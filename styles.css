@@ -108,7 +108,24 @@ body {
     border: 1px solid red;
     transition: 0.3s ease;
 }
-
+.hero span{
+    text-align: start;
+    color: rgb(255, 101, 101);
+    font-weight: bold;
+}
+.line{
+    height: 0px;
+    width: 200px;
+    border: 2px solid red;
+   
+    margin-left: 0px;
+    margin-bottom: -15px;
+}
+.more{
+    margin-top: 50px;
+    margin-left: -400px;
+    
+}
 /* Sections */
 .section {
     padding: 50px 20px;
