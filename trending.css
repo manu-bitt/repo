@@ -1,0 +1,12 @@
+body {
+    background-color: #121212; /* Dark gray for a modern aesthetic */
+    color: #EAEAEA; /* Light gray for text */
+    font-family: "Playfair Display", serif;
+    line-height: 1.6;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
