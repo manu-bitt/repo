@@ -20,4 +20,24 @@ section h2 {
     text-align: center;
     color: #FF6F61; /* Subtle red accent */
 }
+/* Trending Topics */
+.trending-topics ul {
+    list-style: none;
+    padding: 0;
+}
+
+.trending-topics ul li {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.trending-topics ul li a {
+    color: #EAEAEA;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.trending-topics ul li a:hover {
+    color: #FF6F61; /* Subtle red on hover */
+}
 
