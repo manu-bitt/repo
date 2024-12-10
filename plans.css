@@ -88,3 +88,31 @@
 .wrapper .card.active ul li i{
     color: rgba(255,255,255,0.4);;
  }
+.wrapper .card a{
+    margin: 20px 0;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #e23030;
+    color: #e23030;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+/* For Active Card */
+.wrapper .card.active a{
+   background-color: white;
+   color: rgba(255, 64, 64, 0.8);
+ }
+ 
+.wrapper .card a:hover{
+    background-color: #e23030;
+    color: white;
+}
+
+/* For Active Card */
+.wrapper .card.active a:hover{
+   border: 1px solid white;
+  }
