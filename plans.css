@@ -57,3 +57,34 @@
     font-size: 14px;
     line-height: 1.5;
 }
+.wrapper .card.active p{
+    color: rgba(255,255,255,1);;
+ }
+ 
+.wrapper .card.card.active{
+    background-color: #e23030;
+}
+.wrapper .card ul{
+    list-style: none;
+}
+
+.wrapper .card ul li{
+    line-height: 3;
+    color: rgba(0,0,0,0.9);
+}
+
+/* For Active Card */
+.wrapper .card.active ul li{
+    color: rgba(255,255,255,0.9);;
+ }
+ 
+
+.wrapper .card ul li i{
+    color: rgba(255, 70, 70, 0.549);
+    margin-right: 10px;
+}
+
+/* For Active Card */
+.wrapper .card.active ul li i{
+    color: rgba(255,255,255,0.4);;
+ }
