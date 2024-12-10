@@ -9,4 +9,15 @@ body {
 main {
     padding: 20px;
 }
+/* Section Styling */
+section {
+    margin: 30px 0;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #FF6F61; /* Subtle red accent */
+}
 
