@@ -103,4 +103,31 @@ section h2 {
 .trend-item:hover h3 {
     color: #FF6F61; /* Subtle red */
 }
+/* Video Styling */
+.my-video-class {
+    border: 2px solid #333;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #1E1E1E;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 300px;
+    max-width: 100%;
+}
+
+.my-video-class:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.6; /* Softer opacity for less distraction */
+}
 
