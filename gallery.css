@@ -79,5 +79,32 @@ body {
     font-family: "Rubik", sans-serif;
     font-weight: 500;
   }
+.cool-heading {
+    font-family: 'Arial', sans-serif;
+    font-size: 4rem; /* Adjust the size as needed */
+    font-weight: bold;
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .trending {
+    color: black;
+    padding: 0.2em 0.5em;
+    border-radius: 5px;
+    margin: auto;
+    font-family: playfair display;
+    text-shadow:2px 2px 5px grey;
+  }
+  
+  .swipe {
+    color: white;
+    padding: 0.2em 0.5em;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: -600px;
+    font-family: Playfair Display;
+    text-shadow:2px 2px 5px black;
+    
+  }
   
   
